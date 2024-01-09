@@ -1,0 +1,8 @@
+dependencies {
+    // api모듈이 core모듈을 의존할 수 있도록
+    implementation project(path: ':core')
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    runtimeOnly 'com.h2database:h2'
+}
+

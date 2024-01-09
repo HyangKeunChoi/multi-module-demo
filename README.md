@@ -32,7 +32,7 @@
 1. setting.gradle 에서 모듈 세팅이 가능 합니다.
 2. include('api') 를 입력하시고 빌드 새로 고침을 해주세요.
 3. 프로젝트 최상단(youthcon23)모듈 우 클릭 후 디렉토리 만들기 이름은 api 로 설정하시면 됩니다.
-4. api 모듈에 기존 소스파일 전부 옮겨 주시고 hello.module 패키지 이름을 hello.api 로 적절하게 바꿔 봅시다.
+4. api 모듈에 기존 소스파일 전부 옮겨 주시고 hello.api 패키지 이름을 hello.api 로 적절하게 바꿔 봅시다.
 5. <details><summary> 스프링 부트를 실행 해 봅시다.   </summary>
 
     빌드가 되지 않습니다. 이유는 gradle.build 를 통해 프로젝트를 빌드하거나 실행하기 때문입니다.   
